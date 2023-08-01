@@ -21,8 +21,8 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "myotherclass25bucket"
-    key = "prod/terraform.tfstate"
+    bucket = "daleydemo2"
+    key    = "./myclass31bucket/"
     region = "us-west-2"
   }
 }
