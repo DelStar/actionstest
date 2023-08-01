@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-east-2"
+  region = "us-east-1"
 }
 
 resource "aws_vpc" "actions" {
@@ -23,7 +23,7 @@ terraform {
   backend "s3" {
     bucket = "daleydemo2"
     key    = "./myclass31bucket"
-    region = "us-east-2"
+    region = "us-east-1"
   }
 }
 
