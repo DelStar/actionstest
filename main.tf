@@ -22,7 +22,7 @@ terraform {
   }
   backend "s3" {
     bucket = "daleydemo2"
-    key    = "./myclass31bucket/"
+    key    = "./myclass31bucket"
     region = "us-west-2"
   }
 }
