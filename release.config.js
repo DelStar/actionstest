@@ -1,6 +1,6 @@
 module.exports = {
-   branches: "main",
-   repositoryUrl: "https://github.com/Kenmakhanu/actionstest.git",
+   branches: "master",
+   repositoryUrl: "https://github.com/DelStar/actionstest",
    plugins: [
      '@semantic-release/commit-analyzer',
      '@semantic-release/release-notes-generator',
