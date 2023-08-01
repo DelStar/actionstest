@@ -1,17 +1,17 @@
 provider "aws" {
-  region = "us-west-2"
+  region = "us-east-1"
 }
 
 resource "aws_vpc" "actions" {
   cidr_block = "10.0.0.0/24"
 
   tags = {
-    Name        = "Class30"
+    Name        = "Class31"
     Team        = "DevOps"
     Environment = "Prod"
   }
 }
-/*
+
 terraform {
   #required_version = "1.4.5"
   required_providers {
@@ -21,10 +21,9 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "myotherclass25bucket"
-    key = "prod/terraform.tfstate"
-    region = "us-west-2"
+    bucket = "daleydemo2"
+    key    = "./myclass31bucket"
+    region = "us-east-1"
   }
 }
 
-*/
