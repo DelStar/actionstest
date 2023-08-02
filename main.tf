@@ -8,7 +8,7 @@ resource "aws_vpc" "actions" {
   tags = {
     Name        = "Class31"
     Team        = "DevOps"
-    Environment = "Prod"
+    #Environment = "Prod"
   }
 }
 
